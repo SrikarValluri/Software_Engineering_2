@@ -1,3 +1,7 @@
 def fizzbuzz(x):
-    print(x)
-    return(str(x))
+    if(x % 3 == 0):
+        print("Fizz")
+        return("Fizz")
+    else:
+        print(x)
+        return(str(x))
