@@ -1,2 +1,3 @@
-def fizzbuzz():
-    pass
+def fizzbuzz(x):
+    print(x)
+    return(str(x))
